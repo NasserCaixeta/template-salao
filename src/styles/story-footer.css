@@ -1,0 +1,22 @@
+.story { position: relative; min-height: 125svh; margin: 0 18px; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; }
+.story > img, .story__shade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.story > img { object-fit: cover; object-position: center 30%; }
+.story__shade { background: linear-gradient(90deg, rgba(10,13,11,.52), rgba(10,13,11,.08)), linear-gradient(0deg, var(--ink) 0%, rgba(20,25,22,.74) 18%, transparent 58%); }
+.story__heading { position: absolute; top: 9%; left: 24px; width: min(720px, 60%); }
+.story__heading span { color: var(--champagne); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
+.story__heading h2 { margin: 22px 0 0; font-size: clamp(54px, 7.6vw, 116px); line-height: .9; letter-spacing: -.06em; font-weight: 300; }
+.story blockquote { position: absolute; right: 30px; bottom: 15%; width: min(420px, 40%); margin: 0; }
+.story blockquote p { font-family: 'Italiana', serif; font-size: clamp(25px, 3vw, 46px); line-height: 1.15; }
+.story blockquote footer { padding-top: 16px; border-top: 1px solid var(--line); color: #c4c5bf; font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.site-footer { padding: 100px 18px 18px; background: var(--ink); }
+.final-cta { min-height: 82svh; display: flex; flex-direction: column; justify-content: center; border-bottom: 1px solid var(--line); }
+.final-cta > span { color: var(--gold); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
+.final-cta h2 { margin: 40px 0; font-size: clamp(64px, 10vw, 150px); line-height: .86; letter-spacing: -.065em; font-weight: 300; }
+.final-cta h2 em { color: var(--champagne); }
+.final-cta > a { align-self: flex-start; min-width: 260px; display: flex; justify-content: space-between; padding: 16px; border-radius: 4px; background: var(--ivory); color: var(--ink); font-size: 11px; text-transform: uppercase; }
+.footer-nav { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; padding: 80px 0; }
+.footer-nav > p { margin: 0; color: #adafa9; line-height: 1.5; }
+.footer-nav nav { display: grid; }
+.footer-nav nav a { font-size: clamp(30px, 3.4vw, 52px); line-height: 1.1; letter-spacing: -.04em; }
+.footer-nav address { color: #adafa9; font-size: 12px; line-height: 1.6; font-style: normal; }
+.footer-legal { padding-top: 14px; display: flex; justify-content: space-between; border-top: 1px solid var(--line); color: #8e918b; font-size: 9px; letter-spacing: .1em; }
