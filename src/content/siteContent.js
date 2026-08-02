@@ -9,10 +9,10 @@ export const site = {
 }
 
 export const services = [
-  { number: '01', title: 'Cortes autorais', copy: 'Forma, textura e movimento desenhados para o seu rosto e a sua rotina.', media: '/media/service-cut.jpg' },
-  { number: '02', title: 'Cor & iluminação', copy: 'Tons sofisticados e transições luminosas com profundidade e saúde.', media: '/media/service-color.jpg' },
-  { number: '03', title: 'Tratamentos', copy: 'Protocolos de reconstrução e nutrição escolhidos depois do diagnóstico.', media: '/media/service-treatment.jpg' },
-  { number: '04', title: 'Noivas & eventos', copy: 'Beleza completa construída em harmonia com o seu momento.', media: '/media/service-event.jpg' },
+  { number: '01', title: 'Cortes autorais', copy: 'Forma, textura e movimento desenhados para o seu rosto e a sua rotina.', type: 'image', media: '/media/service-cut-editorial.jpg', alt: 'Modelo com corte curto diante do espelho e da bancada do salão' },
+  { number: '02', title: 'Cor & iluminação', copy: 'Tons sofisticados e transições luminosas com profundidade e saúde.', type: 'video', media: '/media/service-shine.mp4', poster: '/media/service-shine-poster.jpg', alt: 'Cabelo loiro longo e brilhante sendo exibido dentro do salão' },
+  { number: '03', title: 'Tratamentos', copy: 'Protocolos de reconstrução e nutrição escolhidos depois do diagnóstico.', type: 'image', media: '/media/service-color-waves.jpg', alt: 'Modelo com cabelo longo e ondulado diante do espelho profissional do salão' },
+  { number: '04', title: 'Noivas & eventos', copy: 'Beleza completa construída em harmonia com o seu momento.', type: 'image', media: '/media/service-texture-curls.jpg', alt: 'Modelo sorrindo com cachos curtos finalizados em uma cadeira de salão' },
 ]
 
 export const methodSteps = [
