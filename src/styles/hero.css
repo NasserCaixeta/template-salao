@@ -1,9 +1,12 @@
 .hero { position: relative; height: calc(100svh - 36px); min-height: 650px; margin: 18px; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: #292c27; }
 .hero__scenes, .hero__scene, .hero__shade { position: absolute; inset: 0; width: 100%; height: 100%; }
-.hero__scene { object-fit: cover; opacity: 0; animation: scene-cycle 15s linear infinite; }
+.hero__scene { object-fit: cover; opacity: 0; animation: scene-cycle 15s cubic-bezier(.45, 0, .55, 1) infinite; }
 .hero__scene--1 { opacity: 1; animation-delay: 0s; }
 .hero__scene--2 { animation-delay: 5s; }
 .hero__scene--3 { animation-delay: 10s; }
+.hero__scene--1 { object-position: center; }
+.hero__scene--2 { object-position: center 48%; filter: saturate(.78) contrast(1.05) sepia(.06); }
+.hero__scene--3 { object-position: center; }
 @keyframes scene-cycle { 0%, 30% { opacity: 1; } 33%, 96% { opacity: 0; } 100% { opacity: 1; } }
 .hero__shade { background: linear-gradient(90deg, rgba(10, 13, 11, .58), rgba(10, 13, 11, .08) 65%), linear-gradient(0deg, rgba(10, 13, 11, .54), transparent 48%); }
 .hero__meta { position: absolute; top: 84px; left: 24px; right: 24px; display: flex; justify-content: space-between; font-size: 9px; letter-spacing: .16em; }

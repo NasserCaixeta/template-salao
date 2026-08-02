@@ -7,8 +7,9 @@
   .header-cta { min-width: 96px; height: 40px; gap: 10px; font-size: 9px; }
   .menu-button { display: block; }
   .hero { height: calc(100svh - 26px); min-height: 640px; margin: 13px; }
-  .hero__scene { object-position: 57% center; }
-  .hero__scene--2, .hero__scene--3 { object-position: center 24%; }
+  .hero__scene--1 { object-position: 72% center; }
+  .hero__scene--2 { object-position: center 48%; }
+  .hero__scene--3 { object-position: 66% center; }
   .hero__meta { top: 72px; left: 14px; right: 14px; }
   .hero__copy { left: 14px; right: 14px; bottom: 22px; }
   .hero__copy h1 { font-size: clamp(56px, 17vw, 78px); }

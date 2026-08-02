@@ -7,6 +7,7 @@ describe('Hero', () => {
     const { container } = render(<Hero />)
     expect(screen.getByLabelText('Atendimento no salão Maison Auréa')).toBeInTheDocument()
     expect(container.querySelectorAll('.hero__scene')).toHaveLength(3)
+    expect(screen.getByLabelText('Cabelo castanho longo e brilhante sendo revelado dentro do salão')).toHaveAttribute('poster', '/media/hero-hair-reveal-poster-v3.png')
     expect(screen.getByRole('link', { name: /agendar sua experiência/i })).toBeInTheDocument()
   })
 })
