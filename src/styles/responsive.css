@@ -27,8 +27,11 @@
   .service-card__copy p { grid-column: 2; }
   .service-card__copy span { font-size: 38px; }
   .method-stack { padding: 100px 13px 110px; }
-  .method-stack > header { min-height: 72svh; display: block; padding: 0; }
-  .method-stack > header p { width: 80%; margin-left: auto; }
+  .method-stack > header { min-height: 72svh; display: block; padding: 0 0 90px; }
+  .method-stack > header > p { width: 80%; margin: 0 0 36px auto; }
+  .method-stack__feature { height: 65svh; min-height: 480px; margin-top: 0; }
+  .method-stack__feature > img { object-position: 66% center; }
+  .method-stack__feature figcaption { left: 16px; right: 16px; align-items: flex-start; flex-direction: column; gap: 10px; }
   .method-stack__cards { gap: 50px; }
   .method-card { top: 64px; height: auto; min-height: 0; grid-template-columns: 1fr; grid-template-rows: minmax(420px, 60svh) auto; transform: none; }
   .method-card img { grid-row: 1; }

@@ -21,10 +21,17 @@ export const methodSteps = [
   { number: '03', title: 'Finalização & continuidade', copy: 'Você sai com resultado e orientação para preservá-lo em casa.', media: '/media/method-finish.jpg' },
 ]
 
+export const methodIntro = {
+  media: '/media/method-intro-diagnosis-v2.png',
+  alt: 'Profissional analisando cuidadosamente a textura natural do cabelo de uma cliente',
+  caption: 'Antes de transformar, é preciso compreender.',
+  meta: 'Escuta · leitura · precisão',
+}
+
 export const story = {
   eyebrow: 'Uma história, um resultado',
   title: 'Quando alguém entende seu cabelo antes de tentar mudá-lo.',
   quote: 'Foi a primeira vez que o resultado continuou parecendo meu — só que mais preciso.',
   author: 'Marina A. · Cor, corte e tratamento',
-  media: '/media/story-result.jpg',
+  media: '/media/story-result-editorial-v2.png',
 }
