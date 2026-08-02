@@ -9,11 +9,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   border: 1px solid var(--line);
   border-radius: 7px;
-  background: rgba(20, 25, 22, .66);
+  background: rgba(23, 21, 18, .66);
   backdrop-filter: blur(15px);
   transition: inset .45s var(--ease), border-radius .45s var(--ease), background .45s;
 }
-.site-header.is-compact { top: 8px; left: 9px; right: 9px; border-radius: 4px; background: rgba(20, 25, 22, .9); }
+.site-header.is-compact { top: 8px; left: 9px; right: 9px; border-radius: 4px; background: rgba(23, 21, 18, .9); }
 .site-header__brand { display: flex; align-items: center; padding: 0 18px; letter-spacing: .16em; font-size: 13px; font-weight: 400; }
 .site-header__nav { display: grid; grid-template-columns: repeat(3, 1fr); border-inline: 1px solid var(--line); overflow: hidden; }
 .site-header__nav a { position: relative; display: grid; place-items: center; overflow: hidden; border-right: 1px solid var(--line); font-size: 12px; }
@@ -38,4 +38,4 @@
 .mobile-menu nav { margin-top: auto; display: grid; }
 .mobile-menu nav a { display: flex; align-items: flex-start; gap: 18px; padding: 10px 0; font-size: clamp(40px, 13vw, 70px); letter-spacing: -.05em; line-height: .95; border-bottom: 1px solid var(--line); }
 .mobile-menu nav small { padding-top: 6px; color: var(--gold); font-size: 10px; letter-spacing: 0; }
-.mobile-menu p { margin-top: 28px; color: #a9aca5; font-size: 11px; line-height: 1.7; }
+.mobile-menu p { margin-top: 28px; color: #b0aaa0; font-size: 11px; line-height: 1.7; }

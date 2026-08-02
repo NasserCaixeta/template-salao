@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&family=Italiana&display=swap');
 
 :root {
-  --ink: #141916;
-  --ink-soft: #1c211e;
+  --ink: #171512;
+  --ink-soft: #211d18;
   --ivory: #f2eee5;
   --champagne: #d6c39c;
   --gold: #a98a51;
@@ -35,13 +35,13 @@ em { font-family: 'Italiana', Georgia, serif; font-weight: 400; }
   display: grid;
   place-items: center;
   overflow: hidden;
-  background: #0c100e;
+  background: #100e0b;
   animation: opening-out .8s var(--ease) 1s both;
 }
 .opening::after { content: ''; position: absolute; inset: 0; background: var(--champagne); transform: translateY(101%); animation: opening-wipe .75s var(--ease) .95s both; }
 .opening__brand { font-size: clamp(18px, 2vw, 28px); letter-spacing: .24em; animation: opening-brand .8s var(--ease) both; }
 .opening__line { position: absolute; width: min(440px, 72vw); height: 1px; background: var(--line); transform: scaleX(0); animation: opening-line .8s var(--ease) .15s forwards; }
-.opening__place { position: absolute; bottom: 34px; font-size: 10px; letter-spacing: .18em; color: #9c9f98; }
+.opening__place { position: absolute; bottom: 34px; font-size: 10px; letter-spacing: .18em; color: #a39d92; }
 @keyframes opening-brand { from { opacity: 0; transform: translateY(18px); } }
 @keyframes opening-line { to { transform: scaleX(1); } }
 @keyframes opening-wipe { to { transform: translateY(-101%); } }
