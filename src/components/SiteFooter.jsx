@@ -4,7 +4,7 @@ export default function SiteFooter() {
   return <footer className="site-footer">
     <section className="final-cta">
       <span>03 · Seu momento</span>
-      <h2>Pronta para se olhar<br/><em>de um novo jeito?</em></h2>
+      <h2 aria-label="Pronta para se olhar de um novo jeito?">Pronta para se olhar<br/><em>de um novo jeito?</em></h2>
       <a href={site.whatsapp} target="_blank" rel="noreferrer">Agendar pelo WhatsApp <b>↗</b></a>
     </section>
     <div className="footer-nav">
