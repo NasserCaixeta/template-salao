@@ -19,8 +19,9 @@
 .site-header__nav a { position: relative; display: grid; place-items: center; overflow: hidden; border-right: 1px solid var(--line); font-size: 12px; }
 .site-header__nav a:last-child { border-right: 0; }
 .site-header__nav a span { grid-area: 1 / 1; transition: transform .5s var(--ease); }
-.site-header__nav a span:last-child { transform: translateY(180%); }
-.site-header__nav a:hover span:first-child { transform: translateY(-180%); }
+.site-header__nav a span:first-child { transform: translateY(0); }
+.site-header__nav a span:last-child { transform: translateY(56px); }
+.site-header__nav a:hover span:first-child { transform: translateY(-56px); }
 .site-header__nav a:hover span:last-child { transform: translateY(0); }
 .site-header__actions { display: flex; justify-content: flex-end; align-items: center; padding: 6px; }
 .header-cta { min-width: 166px; height: 42px; display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 0 14px; border-radius: 4px; background: var(--ivory); color: var(--ink); font-size: 11px; text-transform: uppercase; }

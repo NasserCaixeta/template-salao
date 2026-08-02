@@ -46,7 +46,9 @@
 }
 
 @media (hover: none) {
-  .site-header__nav a:hover span:first-child, .site-header__nav a:hover span:last-child, .header-cta:hover b { transform: none; }
+  .site-header__nav a:hover span:first-child { transform: translateY(0); }
+  .site-header__nav a:hover span:last-child { transform: translateY(56px); }
+  .header-cta:hover b { transform: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
